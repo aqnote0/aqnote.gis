@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "name": "SCOPE - EPSG:4326(WGS84)",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0, 0]
+      },
+      "properties": {
+        "name": "middle"
+      }
+    },
+    {
+        "type": "Feature",
+        "id": "2",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [180, 0]
+        },
+        "properties": {
+          "name": "east"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "3",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-180, 0]
+        },
+        "properties": {
+          "name": "west"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "4",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [0, -90]
+        },
+        "properties": {
+          "name": "south"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "5",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [0, 90]
+        },
+        "properties": {
+          "name": "north"
+        }
+      }
+  ]
+}
